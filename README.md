@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 .
 .
 
- https://63920937d5a3e100922c363f--delicate-stardust-a614ce.netlify.app
+ https://639f192d57a0d379cd1b5da7--my-portfolio77.netlify.app
  .
  .
  .
