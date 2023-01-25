@@ -1,10 +1,12 @@
 import Beachs from '../assets/projects/Beachs.png'
+import BlueTube from '../assets/projects/BlueTube.png'
 import Brand from '../assets/projects/Brand.png'
 import Card from './Card'
 import Fade from 'react-reveal/Fade';
 import React from 'react'
 import RealEst from '../assets/projects/realestate.jpg'
-import WorkIm from '../assets/projects/workImg.jpeg'
+import chat from '../assets/projects/chat-app.png'
+import dice from '../assets/projects/dice-game.png'
 
 const Work = () => {
 return (
@@ -23,12 +25,12 @@ return (
     </Fade>
     <div  className='grid sm:grid-cols-2 md:grid-cols-3 gap-6'> 
    
-<Fade left><Card pro={"Beachs project"}img={WorkIm}/></Fade>
-<Fade down><Card pro={"Brand project"} img={RealEst} /></Fade>
-<Fade right><Card pro={"react project"} img={WorkIm} /></Fade>
-<Fade left><Card pro={"react project"} img={RealEst} /></Fade>
-<Fade up><Card pro={"react project"} img={WorkIm} /></Fade>
-<Fade right><Card pro={"react project"} img={RealEst} /></Fade>
+<Fade left><Card pro={"BlueTube"} img={BlueTube} code={'https://github.com/Mahmoudd777/BlueTube'} live={'https://blue-tube.netlify.app'}/></Fade>
+<Fade down><Card pro={"Basic chat app"} img={chat} code={'https://github.com/Mahmoudd777/Basic.React.-Chat-App'} live={'https://63d12c2b9a1b4f24ceb71c73--basic-chat-app1.netlify.app'}/></Fade>
+<Fade right><Card pro={"Simple dice game"} img={dice}code={'https://github.com/Mahmoudd777/Two-Player-Dice-Game-/tree/main/dice-game-app'} live={'https://simple-dice-game-app.netlify.app'} /></Fade>
+<Fade left><Card pro={"Beachs"} img={Beachs}code={'https://github.com/Mahmoudd777/react-app-BEACHES.-'} live={'https://beaches77.netlify.app/'} /></Fade>
+<Fade up><Card pro={"Brand"} img={Brand}code={'https://github.com/Mahmoudd777/Brand-project'} live={'https://brand77.netlify.app/'} /></Fade>
+<Fade right><Card pro={"react project"} code={''} live={''} /></Fade>
 </div>
 </div>
 </div>

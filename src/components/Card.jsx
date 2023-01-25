@@ -17,13 +17,13 @@ const Card = (props) => {
     </span>
     <div className="pt-8 text-center ">
     
-        <a href="/">
+        <a href={`${props.code}`}>
         <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:border-transparent transition ease-in duration-200  hover:-translate-y-1 active:translate-y-0">
             Code
         </button>
         </a>
         
-        <a href="/">
+        <a href={`${props.live}`}>
         <button
         className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg hover:border-transparent transition ease-in duration-200  hover:-translate-y-1 active:translate-y-0"
         >

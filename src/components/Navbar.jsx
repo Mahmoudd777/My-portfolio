@@ -10,6 +10,7 @@ import { BsFillPersonLinesFill } from 'react-icons/bs';
 import Hamburger from 'hamburger-react'
 import { HiOutlineMail } from 'react-icons/hi';
 import { Link } from 'react-scroll';
+import {NavLink} from 'react-router-dom'
 import Zoom from 'react-reveal/Zoom';
 
 //import { Slide } from "react-awesome-reveal";
